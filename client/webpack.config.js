@@ -19,11 +19,9 @@ module.exports = () => {
         template: './index.html',
         title: 'J.A.T.E'
       }),
-      new InjectManifest({
-        swSrc: './src-sw.js',
-        swDest: 'src-sw.js',
-      }),
       new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
         short_name: 'J.A.T.E',
         name: 'Just Another Text Editor',
         description: 'A simple text editor that works offline',
@@ -36,7 +34,10 @@ module.exports = () => {
             destination: path.join('assets', 'icons'),
           }
         ]
-
+      }),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
       }),
     ],
 

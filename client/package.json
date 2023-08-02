@@ -1,5 +1,5 @@
 {
-  "name": "tex-editor-frontend",
+  "name": "text-editor-frontend",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
