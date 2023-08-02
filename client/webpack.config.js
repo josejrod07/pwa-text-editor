@@ -20,6 +20,7 @@ module.exports = () => {
         title: 'J.A.T.E'
       }),
       new WebpackPwaManifest({
+        fingerprints: false,
         inject: true,
         short_name: 'J.A.T.E',
         name: 'Just Another Text Editor',
