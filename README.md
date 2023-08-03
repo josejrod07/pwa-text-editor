@@ -26,7 +26,7 @@ The application is designed to work seamlessly offline using service workers and
 
 You can install the text editor web application on your desktop for easy access. Here's how:
 
-1. Open the [application](#) in your browser.
+1. Open the [application](#https://bettertexteditor-eccd58f7f834.herokuapp.com/) in your browser.
 2. Click the "Install!" button, which will prompt you to download the application as an icon on your desktop.
 
 ## License
@@ -37,4 +37,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 [Repository](#https://github.com/josejrod07/pwa-text-editor.git)
 
-[Application](#)
+[Application](#https://bettertexteditor-eccd58f7f834.herokuapp.com/)
